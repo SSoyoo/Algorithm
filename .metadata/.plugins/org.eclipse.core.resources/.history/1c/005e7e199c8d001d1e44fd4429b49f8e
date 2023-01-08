@@ -1,0 +1,21 @@
+package Algorithm03_최빈수구하기;
+
+import java.util.Scanner;
+
+public class Algorithm03_1 {
+
+	public static void main(String[] args) {
+
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int inputNum = new int[10];
+		for(int i = 0; i<10; i++) {
+			inputNum[i] = sc.nextInt();
+		}
+		
+		
+		
+	}
+
+}

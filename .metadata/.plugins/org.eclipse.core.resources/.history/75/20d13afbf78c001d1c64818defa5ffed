@@ -1,0 +1,30 @@
+package test;
+
+import java.util.Scanner;
+
+public class A_백준_3003_세번째 {
+
+	public static void main(String[] args) {
+		
+		String [] piecesName = {"킹","퀸","룩","비숍","나이트","폰"}; 
+		int [] chess = {1,1,2,2,2,8};
+		int [] chessHave = new int[6];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0;i<6;i++) {
+			System.out.println(piecesName[i]+":");
+			chessHave[i] = sc.nextInt();
+			}
+		
+		for(int i = 0 ; i<6 ; i++) {
+			System.out.print("필요한 체스 말 - "+ piecesName[i]+ " : " +(chess[i]-chessHave[i])+" ");
+			
+		}
+			
+			
+			
+	}
+
+}
+

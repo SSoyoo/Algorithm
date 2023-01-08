@@ -1,0 +1,25 @@
+package test;
+
+import java.util.Scanner;
+
+public class A_백준_9498 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int score = sc.nextInt();
+		
+		String result = null;
+		
+		result = (100>=score >=90) ? "A"
+				: score > 90 ? "B"
+				: score > 80 ? "C"
+				: score > 70 ? "D"
+				:"F";
+				
+				
+		
+	}
+
+}

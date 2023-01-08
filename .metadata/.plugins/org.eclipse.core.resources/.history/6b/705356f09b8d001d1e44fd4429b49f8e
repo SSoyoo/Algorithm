@@ -1,0 +1,10 @@
+package Algorithm03_최빈수구하기;
+
+public class Algorithm03_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

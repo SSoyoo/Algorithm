@@ -1,0 +1,15 @@
+package Algorithm01;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student st1 = new Student("이바라","1111");
+		Student st2 = new Student("나기사","2222");
+		Student st3 = new Student("히요리","3333");
+		
+		ArrayList <Student> list = new ArrayList<Student>();
+		 
+	}
+
+}

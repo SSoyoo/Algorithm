@@ -1,0 +1,39 @@
+package test;
+
+import java.util.Scanner;
+
+public class A_백준_3003 {
+
+	public static void main(String[] args) {
+/*
+ * 킹, 퀸 룩 비숍 나이트 폰의 개수가 주어진다
+ * 출력 첫째 줄에 주어진 순서대로 몇개의 피스를 더하가나 빼면 되는지 출력
+ */
+		
+		int[] chess = new int[6];
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("킹:");
+		chess[0] = sc.nextInt();
+		
+		System.out.println("퀸:");
+		chess[1] = sc.nextInt();
+		
+		System.out.println("룩:");
+		chess[2] = sc.nextInt();
+		
+		System.out.println("비숍:");
+		chess[3] = sc.nextInt();
+		
+		System.out.println("나이트:");
+		chess[4] = sc.nextInt();
+		
+		System.out.println("폰:");
+		chess[5] = sc.nextInt();
+		
+		System.out.println((1-chess[1])+""+(2-chess[2]+""));
+		
+		
+
+}
+}

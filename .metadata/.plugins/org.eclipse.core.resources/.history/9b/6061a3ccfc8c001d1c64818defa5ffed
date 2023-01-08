@@ -1,0 +1,26 @@
+package test;
+
+import java.util.Scanner;
+
+public class A_백준_3003_두번째 {
+
+	public static void main(String[] args) {
+		//1,1,2,2,2,8
+		
+		int [] chess = {1,1,2,2,2,8};
+		int [] pieces = new int[6];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i =0; i<pieces.length; i++) {
+			pieces[i] = sc.nextInt();
+		}
+		
+		for(int i = 0 ; i<6 ; i++) {
+			System.out.print(chess[i]-pieces[i]+" ");
+		}
+	
+	}
+
+}
+

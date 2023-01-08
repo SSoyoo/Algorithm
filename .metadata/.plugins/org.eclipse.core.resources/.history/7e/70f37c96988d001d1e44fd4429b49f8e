@@ -1,0 +1,25 @@
+package Algorithm02;
+
+public class Algorithm02_2 {
+
+	public static void main(String[] args) {
+		// 피보나치 수열 배열안쓰고 ?
+		// An = An-1+An-2 n>3
+		
+		int a1 =1; // an-2
+		int a2 =1; // an -1
+		
+		System.out.print(a1+ " ");
+		System.out.print(a2+ " ");
+		
+		for(int i = 3; i<10; i++) {
+			int nNum = a1=a2;
+			System.out.print(nNum+" ");
+			a2=a1;
+			
+		}
+		
+		
+	}
+
+}
