@@ -30,4 +30,6 @@
 		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
 		<item value="org.eclipse.wst.common.fproj:3.7.3.v202111212041"/>
 	</list>
+	<section name="NewWizardAction">
+	</section>
 </section>
